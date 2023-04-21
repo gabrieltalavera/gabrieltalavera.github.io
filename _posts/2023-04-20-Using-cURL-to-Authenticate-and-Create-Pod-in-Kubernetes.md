@@ -17,7 +17,7 @@ The kubectl command-line tool installed on your machine
 cURL installed on your machine
 Familiarity with Kubernetes concepts like pods, namespaces, and API objects
 
-Step 1: Authenticate with Kubernetes API
+### Step 1: Authenticate with Kubernetes API
 
 Kubernetes uses a token-based authentication mechanism to grant access to the API. To authenticate using cURL, you need to obtain your access token and the cluster's API server address.
 
@@ -44,7 +44,7 @@ curl --insecure --header "Authorization: Bearer $TOKEN" $APISERVER/api
 
 Note that the --insecure flag is used for demonstration purposes only, and you should replace it with the appropriate certificate authority in a production environment.
 
-Step 2: Create a Pod using the Kubernetes API
+### Step 2: Create a Pod using the Kubernetes API
 
 To create a new pod, you'll need to define a JSON or YAML manifest file describing the pod's specifications. For this example, let's create a simple manifest file called my-pod.json with the following content:
 
@@ -81,7 +81,7 @@ curl --insecure -X POST -H "Content-Type: application/json" -H "Authorization: B
 
 Remember to replace /path/to/my-pod.json with the actual path to your manifest file.
 
-Step 3: Verify the Pod Creation
+### Step 3: Verify the Pod Creation
 
 To confirm that your pod was created successfully, you can use the kubectl command:
 
