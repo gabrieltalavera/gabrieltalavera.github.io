@@ -6,7 +6,7 @@ title: Using cURL to Authenticate and Create a Pod in Kubernetes
 
 ## Introduction
 
-Kubernetes, an open-source container orchestration platform, has become an essential tool for managing containerized applications at scale. In this tutorial, we will explore how to use cURL to authenticate in Kubernetes and create a pod using the API. cURL is a command-line tool for transferring data using various protocols, which makes it ideal for interacting with RESTful APIs like the Kubernetes API.
+Kubernetes, an open-source container orchestration platform, has become an essential tool for managing containerized applications at scale. In this article, we will explore how to use cURL to authenticate in Kubernetes and create a pod using the API. cURL is a command-line tool for transferring data using various protocols, which makes it ideal for interacting with RESTful APIs like the Kubernetes API.
 
 ## Prerequisites
 
