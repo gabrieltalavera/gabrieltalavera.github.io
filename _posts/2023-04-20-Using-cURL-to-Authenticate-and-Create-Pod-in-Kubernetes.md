@@ -1,6 +1,7 @@
-
 ---
-Using cURL to Authenticate and Create a Pod in Kubernetes
+title: Using cURL to Authenticate and Create a Pod in Kubernetes
+categories: [kubernetes]
+tags: [kubernetes, bash]
 ---
 
 ## Introduction
